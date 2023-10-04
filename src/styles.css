@@ -1,4 +1,4 @@
-.card-button {
+.carrito {
     border: 1px solid #252525;
     display: flex;
     padding: 5px;
@@ -8,7 +8,24 @@
     transition: 0.3s ease-in-out;
     width: 50px;
   }
-  .card-button:hover {
+  .carrito:hover {
     border: 1px solid #89d631;
     background-color: #89d631;
+  }
+
+  .productos-columns {
+    margin:10px;
+  }
+  .productos-details {
+    margin: 120px
+  }
+
+  .contador{
+    display: flex;
+    align-content: space-around;
+    align-items: center;
+  }
+
+  .contador-number{
+    margin: 30px;
   }
