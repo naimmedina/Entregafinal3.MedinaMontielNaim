@@ -4,7 +4,7 @@ import imglogo from '../img/toyota.logo.png'
 
 const Navbar = () => {
   return (
-    <nav className="navbar is-light" role="navigation" aria-label="dropdown navigation">
+    <nav className="navbar is-dark" role="navigation" aria-label="dropdown navigation">
       <div className="navbar-brand">
         <Link to='/'>
           <img src={imglogo}  alt="" width="80" />
@@ -16,11 +16,11 @@ const Navbar = () => {
           Categorias
         </NavLink>
         <div className="navbar-dropdown">
-          <NavLink to={`/category/Deportivo`} activeClassName='ActiveOption'>Deportivos</NavLink>
+          <NavLink to={`/category/Deportivo`} className='ActiveOption'>Deportivos</NavLink>
           <hr />
-          <NavLink to={`/category/Todoterreno`} activeClassName='ActiveOption'>Todoterreno</NavLink>
+          <NavLink to={`/category/Todoterreno`} className='ActiveOption'>Todoterreno</NavLink>
           <hr />
-          <NavLink to={`/category/Casual`} activeClassName='ActiveOption'>Casual</NavLink>
+          <NavLink to={`/category/Casual`} className='ActiveOption'>Casual</NavLink>
           <hr className="navbar-divider" />
         </div>
       </div>

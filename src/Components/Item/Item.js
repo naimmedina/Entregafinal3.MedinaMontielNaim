@@ -21,7 +21,7 @@ const Item = ({id, name, img, price, stock}) => {
                 </p>
             </section>
             <footer className="card-content">
-                <Link to={`/Item/${id}`}>Ver detalle</Link>
+                <Link className="button is-outlined" to={`/Item/${id}`}>Ver detalle</Link>
             </footer>
         </article>
     )
